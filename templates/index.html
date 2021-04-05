@@ -27,6 +27,16 @@
             padding: 40px;
         }
 
+        .employment {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .qual-details {
+            list-style-type: disc;
+        }
+
         .right {
             display: flex;
             flex-direction: column;
@@ -35,6 +45,13 @@
         .qual-name {
             font-style: italic;
         }
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        
     </style>
 </head>
 <body>
@@ -42,6 +59,55 @@
         <div class="fullname black-text"><strong><h1>William Mabotja</h1></strong></div>
         <div class="subheading black-text"><span class="city">Johannesburg, ZA</span>&nbsp;|&nbsp;<span class="phone">+27 73 341 1217</span>&nbsp;|&nbsp;<span class="email">williammabotjadev@gmail.com</span>&nbsp;|&nbsp;<span class="linkedin">linkedin.com/in/william-mabotja-cs</span></div>
     </header>
+    <br>
+    <div class="main-container">
+   
+        <div class="employment">
+        <h3>Employment History</h3>
+        <hr>
+        <div class="work-item">
+            <div class="left">
+                <h6>Flume Digital Marketing &amp; PR</h6>
+                <p class="pos-name">Web Developer</p>
+                <ul class="list">
+                    <li>- Managing new and existing web applications for clients</li>
+                    <li>- Work with Account Managers to liase with clients</li>
+                    <li>- Attending Daily Stanup Meetings</li>
+                    <li>- Meet with Clients and other stakeholders to finalise projects</li>
+                </ul>
+            </div>
+            <div class="right">
+                <span class="work-city">
+                    Bryanston, ZA
+                </span>
+                <span class="work-date">
+                    <span class="from">August 2020</span><span class="hyphen">&nbsp;<span>-</span>&nbsp;</span><span class="to">October 2020</span>
+                </span>
+            </div>
+
+        </div>
+        <div class="work-item">
+            <div class="left">
+                <h6>Flash-Forward Productions</h6>
+                <p class="pos-name">Web Developer</p>
+                <ul class="list">
+                    <li>- Working on a Virtual Event Platform for WESGRO</li>
+                    <li>- Working in a team of 3 Developers and 1 Application Manager</li>
+                    <li>- Using Laravel MVC Framework</li>
+                    <li>- Attending Daily and Internal Meetings</li>
+                </ul>
+            </div>
+            <div class="right">
+                <span class="work-city">
+                    Sandton, ZA
+                </span>
+                <span class="work-date">
+                    <span class="from">February 2021</span><span class="hyphen">&nbsp;<span>-</span>&nbsp;</span><span class="to">February 2021</span>
+                </span>
+            </div>
+
+        </div>
+    </div>
     <div class="education">
         <h3>Education</h3>
         <hr>
@@ -49,11 +115,11 @@
             <div class="left">
                 <h6>Esri South Africa</h6>
                 <p class="qual-name">National Diploma in Geographic Infromation Sciences</p>
-                <ul class="qual-details">
-                    <li>Reading Hard Copy Maps</li>
-                    <li>ArcGIS Software</li>
-                    <li>Microsoft SQL Server</li>
-                    <li>GIS Analysis</li>
+                <ul class="list">
+                    <li>- Reading Hard Copy Maps</li>
+                    <li>- ArcGIS Software</li>
+                    <li>- Microsoft SQL Server</li>
+                    <li>- GIS Analysis</li>
                 </ul>
             </div>
             <div class="right">
@@ -67,6 +133,8 @@
 
         </div>
     </div>
+    </div>
+    <br>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
